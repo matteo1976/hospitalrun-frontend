@@ -6,8 +6,11 @@
   "license": "MIT",
   "dependencies": {
     "pouchdb": "~7.1.1",
+    "bootstrap": "^4.3.1",
     "react": "~16.10.2",
     "react-dom": "~16.10.2",
+    "react-router": "~5.1.2",
+    "react-router-dom": "~5.1.2",
     "react-scripts": "~3.2.0",
     "typescript": "~3.6.3"
   },
@@ -36,6 +39,8 @@
     "@types/pouchdb": "~6.4.0",
     "@types/react": "~16.9.6",
     "@types/react-dom": "~16.9.1",
+    "@types/react-router": "~5.1.2",
+    "@types/react-router-dom": "~5.1.0",
     "@typescript-eslint/eslint-plugin": "~2.4.0",
     "@typescript-eslint/parser": "~2.4.0",
     "commitizen": "^4.0.3",

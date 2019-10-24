@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from './hospitalrun-icon-transparent.png';
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import HospitalRun from 'components/HospitalRun';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <div>
+      <BrowserRouter>
+        <HospitalRun />
+      </BrowserRouter>
     </div>
   );
 }
